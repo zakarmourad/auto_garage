@@ -1,0 +1,179 @@
+
+
+.ksdb{
+    font-family: 'robReg', sans-serif;
+    color: #707070;
+    background-image: url('../../images/IKO/add\ car\ icon.svg');
+    background-repeat: no-repeat;
+    background-size: 11%;
+    padding-left: 40px;
+
+    background-position: 12% 50%;
+}
+.ksdb:hover{
+    color:#E1B72A;
+    background:
+    linear-gradient(
+      to right,
+      #E1B72A 0%,
+      #E1B72A 10px,
+      transparent 5px
+    ),url('../../images/IKO/add\ car\ icon\ h.svg') 12% center;
+   background-repeat: no-repeat;
+   background-size: 13%;
+ padding-left: 40px;
+ padding-top:10px;
+ padding-bottom: 10px;
+}
+.ksdb:active{
+    color:#E1B72A;
+    background:
+    linear-gradient(
+      to right,
+      #E1B72A 0%,
+      #E1B72A 10px,
+      transparent 5px
+    ),url('../../images/IKO/add\ car\ icon\ c.svg') 12% center;
+   background-repeat: no-repeat;
+   background-size: 13%;
+  
+  
+ padding-left: 40px;
+ padding-top:10px;
+ padding-bottom: 10px;
+}
+
+
+
+.ksdb1{
+    font-family: 'robReg', sans-serif;
+    color: #707070;
+    background-image: url('../../images/IKO/list\ of\ cars\ icon.svg');
+    background-repeat: no-repeat;
+    background-size: 11%;
+    padding-left: 38px;
+
+    background-position: 12% 50%;
+}
+.ksdb1:hover{
+    color:#E1B72A;
+    background:
+    linear-gradient(
+      to right,
+      #E1B72A 0%,
+      #E1B72A 10px,
+      transparent 5px
+    ),url('../../images/IKO/list\ of\ cars\ icon\ h.svg') 12% center;
+   background-repeat: no-repeat;
+   background-size: 13%;
+ padding-left: 38px;
+ padding-top:10px;
+ padding-bottom: 10px;
+}
+.ksdb1:active{
+    color:#E1B72A;
+    background:
+    linear-gradient(
+      to right,
+      #E1B72A 0%,
+      #E1B72A 10px,
+      transparent 5px
+    ),url('../../images/IKO/list\ of\ cars\ icon\ c.svg') 12% center;
+   background-repeat: no-repeat;
+   background-size: 13%;
+  
+  
+ padding-left: 38px;
+ padding-top:10px;
+ padding-bottom: 10px;
+}
+
+
+
+.ksdb2{
+    font-family: 'robReg', sans-serif;
+    color: #707070;
+    background-image: url('../../images/IKO/add\ client.svg');
+    background-repeat: no-repeat;
+    background-size: 11%;
+    padding-left: 30px;
+
+    background-position: 12% 50%;
+}
+.ksdb2:hover{
+    color:#E1B72A;
+    background:
+    linear-gradient(
+      to right,
+      #E1B72A 0%,
+      #E1B72A 10px,
+      transparent 5px
+    ),url('../../images/IKO/add\ client\ h.svg') 12% center;
+   background-repeat: no-repeat;
+   background-size: 14.5%;
+ padding-left: 30px;
+ padding-top:10px;
+ padding-bottom: 10px;
+}
+.ksdb2:active{
+    color:#E1B72A;
+    background:
+    linear-gradient(
+      to right,
+      #E1B72A 0%,
+      #E1B72A 10px,
+      transparent 5px
+    ),url('../../images/IKO/add\ client\ c.svg') 12% 90%;
+   background-repeat: no-repeat;
+   background-size: 19%;
+  
+  
+ padding-left: 30px;
+ padding-top:10px;
+ padding-bottom: 10px;
+}
+
+
+
+.ksdb3{
+    font-family: 'robReg', sans-serif;
+    color: #707070;
+    background-image: url('../../images/IKO/clients\ list.svg');
+    background-repeat: no-repeat;
+    background-size: 11%;
+    padding-left: 37px;
+
+    background-position: 12% 50%;
+}
+.ksdb3:hover{
+    color:#E1B72A;
+    background:
+    linear-gradient(
+      to right,
+      #E1B72A 0%,
+      #E1B72A 10px,
+      transparent 5px
+    ),url('../../images/IKO/clients\ list\ h.svg') 12% center;
+   background-repeat: no-repeat;
+   background-size: 13%;
+ padding-left: 37px;
+ padding-top:10px;
+ padding-bottom: 10px;
+}
+.ksdb3:active{
+    color:#E1B72A;
+    background:
+    linear-gradient(
+      to right,
+      #E1B72A 0%,
+      #E1B72A 10px,
+      transparent 5px
+    ),url('../../images/IKO/clients\ list\ c.svg') 12% center;
+   background-repeat: no-repeat;
+   background-size: 13%;
+  
+  
+ padding-left: 37px;
+ padding-top:10px;
+ padding-bottom: 10px;
+}

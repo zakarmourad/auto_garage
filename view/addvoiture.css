@@ -1,0 +1,1143 @@
+@font-face {
+    font-family: "son";
+    src: 
+    url('../fonts/Segoe UI.ttf')  format('truetype');
+    }
+    @font-face {
+        font-family: "robReg";
+        src: 
+        url('../fonts/Roboto-Regular.ttf')  format('truetype');
+        }
+        @font-face {
+            font-family: "sonbold";
+            src: 
+            url('../fonts/Segoe UI Bold.ttf')  format('truetype');
+            }
+            @font-face {
+                font-family: "sonl";
+                src: 
+                url('../fonts/segoeuil.ttf')  format('truetype');
+                }
+                @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+
+
+
+                #first-fm{
+                    display:grid;
+                    grid-template-columns: 1fr 1fr;
+                    grid-column-gap: 1em;
+                    grid-row-gap: 1em;
+                    grid-auto-rows: minmax(100px,auto);
+
+                }
+.first-sec{
+background-color: #fff;
+grid-row: 1/4;
+
+}
+.dold{
+    width:10%;
+}
+.dolp{
+    width:25%;
+}
+.sixth-sec{
+    display: none;
+}
+.seventh-sec{
+
+    display: none;
+}
+.dolr{
+margin-left: 10px;
+margin-top:6%;
+margin-bottom: 6%;
+}
+.i1{
+width:16%;
+
+}
+.i2{
+    width:14%;
+
+}
+.i3{
+    width:28%;
+
+}
+select {
+color: #8B8B8B;
+padding: 5px 0;
+width:55%;
+}
+.second-sec{
+    background-color: #fff;
+    padding: 15px;
+    display:block !important;
+    grid-row: 1;
+align-self: flex-start;
+
+}
+.second-sec >div > label{
+    color: #21B8AF;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+.second-sec > div > span{
+    font-family: 'sonbold', sans-serif;
+    color: #707070;
+
+}
+.third-sec > div > span{
+    font-family: 'sonbold', sans-serif;
+    color: #707070;
+
+}
+.third-sec{
+    background-color: #fff;
+padding: 5%;
+
+}
+.third-sec >input{
+    display: block;
+    text-align: center;
+     margin: auto;
+     width: 70%;
+     margin-top: 3%;
+     -webkit-appearance: none;
+     color: #21B8AF;
+     background-color: #fff;
+ border:0;
+ 
+ border-bottom: 2px solid #21B8AF;
+ padding-left: 0;
+}
+.third-sec >input::placeholder{
+    color: #21B8AF !important;
+    font-size:15px;
+    opacity: 1; /* Firefox */
+  
+}
+h4{
+        font-family: 'sonbold', sans-serif;
+        color: #21B8AF;
+    
+}
+.btn-outline-warning:hover {
+    color: #fff;
+    font-weight: bold;
+    
+    background-color: #E1B72A;
+    border-color: #E1B72A;
+}
+.btn-outline-warning {
+    color: #E1B72A;
+    background-color: transparent;
+    background-image: none;
+    border-color: #E1B72A;
+  font-weight: bold;
+
+}
+.fourth-sec{
+    background-color: #fff;
+    margin: 20px;
+padding:20px;
+margin-top: 0;
+}
+.fifth-sec{
+    background-color: #fff;
+    margin:20px;
+    padding: 20px;
+
+}.bgc{
+    background-color: #fff;
+    margin:20px;
+    margin-bottom: 0;
+    padding:20px;
+
+}
+.sixth-sec{
+    background-color: #fff;
+    align-self: flex-end;
+    padding: 20px;
+
+}
+.but-sec{
+    background-color: #fff;
+    align-self: flex-end;
+    padding: 20px;
+}
+.first-sec > .row .col-6 > label{
+    font-family: 'sonbold', sans-serif;
+    color: #838383;
+    font-size: 15px;
+}
+.sla{
+        font-family: 'sonbold', sans-serif;
+        color: #838383;
+        font-size: 15px;
+  
+}
+#files{
+    width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+label{
+    font-family: 'sonl', sans-serif;
+    color: #8f8f8f;
+    font-size: 15px;
+}
+h3{
+    font-family: 'sonbold', sans-serif;
+    color: #707070;
+
+}
+.bsdf{
+    font-family: 'sonbold', sans-serif;
+    color: #707070;
+}
+.bsdf:hover{
+    font-family: 'sonbold', sans-serif;
+    color: #000;
+}
+.cdc{
+    font-family: 'sonbold', sans-serif;
+color:red;
+
+}
+.cdc:hover{
+    font-family: 'sonbold', sans-serif;
+    color:lightcoral;
+}
+.sdb{
+    font-family: 'robReg', sans-serif;
+    color: #707070;
+    background-image: url('../images/IKO/list\ of\ cars\ icon.svg');
+    background-repeat: no-repeat;
+    background-size: 11%;
+    padding-left: 40px;
+
+    background-position: 12% 50%;
+}
+.sdb:hover{
+    color:#E1B72A;
+    background:
+    linear-gradient(
+      to right,
+      #E1B72A 0%,
+      #E1B72A 10px,
+      transparent 5px
+    ),url('../images/IKO/list\ of\ cars\ icon\ h.svg') 12% center;
+   background-repeat: no-repeat;
+   background-size: 13%;
+  
+  
+ padding-left: 40px;
+ padding-top:10px;
+ padding-bottom: 10px;
+ }
+ .sdb:active{
+    color:#E1B72A;
+    background:
+    linear-gradient(
+      to right,
+      #E1B72A 0%,
+      #E1B72A 10px,
+      transparent 5px
+    ),url('../images/IKO/list\ of\ cars\ icon\ c.svg') 12% center;
+   background-repeat: no-repeat;
+   background-size: 13%;
+  
+  
+ padding-left: 40px;
+ padding-top:10px;
+ padding-bottom: 10px;
+ }
+ .pinv{
+    font-family: 'sonbold', sans-serif;
+    color: #838383;
+    font-size: 15px;
+}
+
+ .sdb1{
+    font-family: 'robReg', sans-serif;
+}
+.jgl{
+    background-color:#21B8AF;
+    font-family: 'sonbold', sans-serif;
+    color:#fff;
+
+}
+
+ .sdb2{
+    font-family: 'robReg', sans-serif;
+    color: #707070;
+    background-image: url('../images/IKO/add\ client.svg');
+    background-repeat: no-repeat;
+    background-size: 12.5%;
+    background-position: 12% 50%;
+    padding-left: 34px;
+    padding-top:5px;
+    padding-bottom: 5px;
+
+}
+.sdb2:hover{
+    color:#E1B72A;
+    background:
+    linear-gradient(
+      to right,
+      #E1B72A 0%,
+      #E1B72A 10px,
+      transparent 5px
+    ),url('../images/IKO/add\ client\ h.svg') 12% center;
+   background-repeat: no-repeat;
+   background-size: 14.5%;
+   padding-left: 27px;
+   padding-top:10px;
+   padding-bottom: 10px;
+ }
+ .sdb2:active{
+    color:#E1B72A;
+    background:
+    linear-gradient(
+      to right,
+      #E1B72A 0%,
+      #E1B72A 10px,
+      transparent 5px
+    ),url('../images/IKO/add\ client\ c.svg') 12% 90%;
+   background-repeat: no-repeat;
+   background-size: 19%;
+   padding-left: 27px;
+   padding-top:10px;
+   padding-bottom: 10px;
+ }
+
+ .sdb3{
+    font-family: 'robReg', sans-serif;
+    color: #707070;
+    background-image: url('../images/IKO/clients\ list.svg');
+    background-repeat: no-repeat;
+    background-size: 11%;
+    background-position: 12% 50%;
+    padding-left: 30px;
+    padding-top:5px;
+    padding-bottom: 5px;
+   
+}
+.btn-outline-danger:hover {
+    font-weight: bold;
+    
+}
+.btn-outline-danger {
+   
+  font-weight: bold;
+
+}
+.prof{
+    height: auto;
+    width: 60px;
+}
+.sdb3:hover{
+    color:#E1B72A;
+    background:
+    linear-gradient(
+      to right,
+      #E1B72A 0%,
+      #E1B72A 10px,
+      transparent 5px
+    ),url('../images/IKO/clients\ list\ h.svg') 12% center;
+   background-repeat: no-repeat;
+   background-size: 13%;
+   padding-left: 30px;
+   padding-top:10px;
+   padding-bottom: 10px;
+ }
+ .sdb3:active{
+    color:#E1B72A;
+    background:
+    linear-gradient(
+      to right,
+      #E1B72A 0%,
+      #E1B72A 10px,
+      transparent 5px
+    ),url('../images/IKO/clients\ list\ c.svg') 12% center;
+   background-repeat: no-repeat;
+   background-size: 13%;
+   padding-left: 30px;
+   padding-top:10px;
+   padding-bottom: 10px;
+ }
+ 
+.xan{
+    height: 100%;
+   
+}
+
+.prf{
+    color:#21B8AF;
+
+}
+
+
+.icons{
+    width:50px;
+    height: auto;
+    /* top: 23px;
+    position: absolute;
+    left: 12px;  */
+}
+.f{
+    display: none;
+}
+.dmr{
+    box-shadow: unset;
+}
+body {
+  overflow-x: hidden;
+  background-image: url('../images/bg/Web\ 1920\ –\ 6.png');
+  font-family: 'Poppins', sans-serif;
+  background-attachment: fixed;
+  background-position: center center;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height:100%;
+}
+   .logo{
+    width:60px;
+    height: auto;
+    padding-top: 4px;
+   }
+    p {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.1em;
+        font-weight: 300;
+        line-height: 1.7em;
+        color: #999;
+    }
+    
+    a,
+    a:hover,
+    a:focus {
+        color: inherit;
+        text-decoration: none;
+        transition: all 0.3s;
+    }
+    
+ 
+    
+    .navbar-btn {
+        box-shadow: none;
+        outline: none !important;
+        border: none;
+    }
+    
+    .line {
+        width: 100%;
+        height: 1px;
+        border-bottom: 1px dashed #ddd;
+        margin: 40px 0;
+    }
+    
+    /* ---------------------------------------------------
+        SIDEBAR STYLE
+    ----------------------------------------------------- */
+    
+    .wrapper {
+        display: flex;
+        width: 100%;
+    }
+    
+    #sidebar {
+        width: 250px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        text-align: center;
+        height: 100vh;
+        z-index: 999;
+        background: #fff;
+        color: #707070;
+        transition: all 0.3s;
+        -webkit-box-shadow: 3px 3px 3px 0px rgba(201,201,201,0.54);
+        -moz-box-shadow: 3px 3px 3px 0px rgba(201,201,201,0.54);
+        box-shadow: 3px 3px 3px 0px rgba(201,201,201,0.54);}
+    
+  
+    #sidebar .sidebar-header {
+        padding: 20px;
+        background: #fff;
+    }
+    
+    #sidebar ul.components {
+        padding: 20px 0;
+        border-bottom: unset;
+    }
+    
+    #sidebar ul p {
+        color: #fff;
+        padding: 10px;
+    }
+    
+    #sidebar ul li a {
+        padding: 10px;
+        font-size: 1.1em;
+        display: block;
+    }
+    
+
+    
+    #sidebar ul li.active>a {
+        color:#E1B72A;
+        background:
+        linear-gradient(
+          to right,
+          #E1B72A 0%,
+          #E1B72A 10px,
+          transparent 5px
+        ),url('../images/IKO/add\ car\ icon\ h.svg') 12% center;
+       background-repeat: no-repeat;
+       background-size: 13%;
+      
+      
+     padding-left: 60px;
+     padding-top:10px;
+     padding-bottom: 10px;
+    }
+
+    #sidebar ul li.active:active>a {
+        color:#E1B72A;
+        background:
+        linear-gradient(
+          to right,
+          #E1B72A 0%,
+          #E1B72A 10px,
+          transparent 5px
+        ),url('../images/IKO/add\ car\ icon\ c.svg') 12% center;
+       background-repeat: no-repeat;
+       background-size: 13%;
+      
+      
+     padding-left: 60px;
+     padding-top:10px;
+     padding-bottom: 10px;
+    }
+
+    
+    a[data-toggle="collapse"] {
+        position: relative;
+    }
+    
+ 
+    
+    ul ul a {
+        font-size: 0.9em !important;
+        padding-left: 30px !important;
+        /* background: #fff; */
+    }
+
+    /* ---------------------------------------------------
+        CONTENT STYLE
+    ----------------------------------------------------- */
+    
+    #content {
+        width: calc(100% - 250px);
+        padding: 0px;
+        background-image: unset;
+        min-height: 100%;
+        transition: all 0.3s;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    
+    #content.active {
+        width: 100%;
+    }
+    
+   
+    .overlay.active {
+        display: none;
+    }
+    #dismiss {
+       display: none;
+    }
+    .smrt{
+      padding:40px;
+      height: 100%;
+      width:100%;
+    }
+    html{
+        width: 100%;
+        height:100%;
+      }
+      .fling{
+       display: none;
+
+    }
+ .darpi{
+    -webkit-appearance: none;
+    background-color: #fff;
+border:0;
+
+border-bottom: 2px solid #8B8B8B;
+padding-left: 0;
+ }
+ ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #8B8B8B !important;
+    font-size:16px;
+    opacity: 1; /* Firefox */
+  }
+  input[type="text"]:disabled {
+    background: #fff;
+  }
+  .prp{
+      padding:10px;
+  }
+.brr{
+    text-align: center;
+}
+.nr{
+    font-size: 18px;
+    font-family: 'sonbold', sans-serif;
+    color: #707070;
+
+}
+.kr{
+    font-size:12px;
+}
+.pld{
+    padding:8px;
+    float: right;
+}
+@media (max-width:768px){
+    .cidar{
+       display: none;
+    }
+    .fling{
+        text-align: center;
+        transform: translate(-50%,-50%);
+position: absolute;
+left:50%;
+display: unset;
+
+    }
+    .ping{
+      display: none;
+    }
+    .pds{
+padding: 3px;
+font-size:10px;
+    }
+    .kola{
+        display: none;
+    }
+    h3{
+        font-size:10px !important;
+    }
+    
+    ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: #8B8B8B !important;
+        font-size:10px;
+        opacity: 1; /* Firefox */
+      }
+    .f{
+        display: unset;
+    }
+    .sdb{
+        font-family: 'robReg', sans-serif;
+        color: #707070;
+        background-image: url('../images/IKO/list\ of\ cars\ icon.svg');
+        background-repeat: no-repeat;
+        background-size: 11%;
+        padding-left: 40px;
+        background-position: 12% 50%;
+    }
+    .sdb:hover{
+        color:#E1B72A;
+        background:
+        linear-gradient(
+          to right,
+          #E1B72A 0%,
+          #E1B72A 10px,
+          transparent 5px
+        ),url('../images/IKO/list\ of\ cars\ icon\ h.svg') 12% center;
+       background-repeat: no-repeat;
+       background-size: 13%;
+      
+      
+     padding-left: 40px;
+     padding-top:10px;
+     padding-bottom: 10px;
+     }
+     .sdb:active{
+        color:#E1B72A;
+        background:
+        linear-gradient(
+          to right,
+          #E1B72A 0%,
+          #E1B72A 10px,
+          transparent 5px
+        ),url('../images/IKO/list\ of\ cars\ icon\ c.svg') 12% center;
+       background-repeat: no-repeat;
+       background-size: 13%;
+      
+      
+     padding-left: 40px;
+     padding-top:10px;
+     padding-bottom: 10px;
+     }
+    
+    
+    
+   
+    
+     .sdb2{
+        font-family: 'robReg', sans-serif;
+        color: #707070;
+        background-image: url('../icons/client\ grey.png');
+        background-repeat: no-repeat;
+        background-size: 10%;
+        background-position: 13% 50%;
+        padding-left: 34px;
+        padding-top:5px;
+        padding-bottom: 5px;
+    
+    }
+    
+#sidebar {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: -250px;
+
+    transition: all 0.3s;
+    overflow-y: scroll;
+   }
+
+    .sdb2:hover{
+        color:#E1B72A;
+        background:
+        linear-gradient(
+          to right,
+          #E1B72A 0%,
+          #E1B72A 10px,
+          transparent 5px
+        ),url('../icons/client.png') 12% center;
+       background-repeat: no-repeat;
+       background-size: 11%;
+       padding-left: 34px;
+       padding-top:10px;
+       padding-bottom: 10px;
+     }
+     .sdb3{
+        font-family: 'robReg', sans-serif;
+        color: #707070;
+        background-image: url('../icons/clients\ grey.png');
+        background-repeat: no-repeat;
+        background-size: 16%;
+        background-position: 11% 50%;
+        padding-left: 30px;
+        padding-top:5px;
+        padding-bottom: 5px;
+       
+    }
+    
+    .prof{
+        height: auto;
+        width: 40px;
+    }
+    .sdb3:hover{
+        color:#E1B72A;
+        background:
+        linear-gradient(
+          to right,
+          #E1B72A 0%,
+          #E1B72A 10px,
+          transparent 5px
+        ),url('../icons/clients.png') 10% center;
+       background-repeat: no-repeat;
+       background-size: 18%;
+       padding-left: 30px;
+       padding-top:10px;
+       padding-bottom: 10px;
+     }
+     
+  
+    
+    .icons{
+        width:10px;
+       
+    }
+    .logo{
+        width:50px;
+        height: auto;
+        padding-top: 3px;
+        /* top: 23px;
+        position: absolute;
+        left: 12px;  */
+    }
+    @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+    .chim{
+      color:#000;
+    }
+    .caef{
+      float:left;
+    
+    }
+    
+    body {
+        overflow-x: hidden;
+        font-family: 'robReg', sans-serif;
+        width: 100%;
+        height:100%;
+        background-image: url('../images/bg/mobile.png');
+        background-attachment: fixed;
+        background-position: center center;
+      
+        background-repeat: no-repeat;
+        background-size: cover;      }
+   
+      /*
+        DEMO STYLE
+    */
+    
+    
+    
+    p {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.1em;
+        font-weight: 300;
+        line-height: 1.7em;
+        color: #999;
+    }
+    
+    a,
+    a:hover,
+    a:focus {
+        color: inherit;
+        text-decoration: none;
+        transition: all 0.3s;
+    }
+    
+    .navbar {
+        padding: 5px Opx;
+      
+        /* box-shadow: 1px 1px 3px rgba(85, 85, 85, 0.1); */
+    }
+    
+    .navbar-btn {
+        box-shadow: none;
+        outline: none !important;
+        border: none;
+    }
+    
+    .line {
+        width: 100%;
+        height: 1px;
+        border-bottom: 1px dashed #ddd;
+        margin: 40px 0;
+    }
+    
+    /* ---------------------------------------------------
+        SIDEBAR STYLE
+    ----------------------------------------------------- */
+    
+    
+    
+    #sidebar.active {
+        left: 0;
+    }
+    
+    #dismiss {
+        width: 10px;
+        height: 1Opx;
+        line-height: 10px;
+        text-align: center;
+        background: #FFF;
+        position: absolute;
+        display: unset;
+        top: 5px;
+        right: 5px;
+        cursor: pointer;
+        -webkit-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+    
+   
+    .smrt{
+        padding: 10px;
+        width: 100%;
+        position: absolute;
+        transform: translate(0,-50%);
+        top: 57%;
+      }
+    .overlay {
+        display: none;
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.7);
+        z-index: 998;
+        opacity: 0;
+        transition: all 0.5s ease-in-out;
+    }
+    .overlay.active {
+        display: block;
+        opacity: 1;
+    }
+    
+    #sidebar .sidebar-header {
+        padding: 20px;
+    }
+    
+    #sidebar ul.components {
+        padding: 3px 0;
+    }
+    
+    #sidebar ul p {
+        color: #fff;
+        padding: 3px;
+    }
+    
+    #sidebar ul li a {
+        padding: 3px;
+        font-size: 1.1em;
+        display: block;
+    }
+    
+ 
+    
+    #sidebar ul li.active>a{
+        color: #E1B72A;
+        background: linear-gradient( to right, #E1B72A 0%, #E1B72A 13px, transparent 5px ),url(../icons/cars.png) 10% center;
+        background-repeat: no-repeat;
+        background-size: 20%;
+        padding-left: 54px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+  
+
+  
+    
+    #content {
+        width: 100%;
+        padding: 5px;
+        min-height: 100vh;
+      /* background-image: url('../images/bg/mobile.png');
+      background-attachment: fixed;
+      background-position: center center;
+    
+      background-repeat: no-repeat;
+      background-size: cover; */
+     
+        transition: all 0.3s;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    
+
+    #first-fm{
+        grid-template-columns: 1fr;
+        grid-column-gap: .5em;
+        grid-row-gap: .5em;
+        grid-auto-rows: minmax(70px,auto);
+
+    }
+.first-sec{
+grid-row: unset;
+
+}
+.dold{
+width:5%;
+}
+.dolp{
+width:25%;
+}
+.dolr{
+margin-left: 10px;
+margin-top:6%;
+margin-bottom: 6%;
+}
+.i1{
+width:23%;
+
+}
+.i2{
+width:20%;
+
+}
+.i3{
+width:36%;
+
+}
+select {
+    width: 91%;
+    font-size: 10px;
+}
+.second-sec{
+background-color: #fff;
+padding: 15px;
+display:block !important;
+grid-row: unset;
+align-self: flex-start;
+
+}
+.second-sec >div > label{
+    color: #21B8AF;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    font-size: 10px;
+}
+.second-sec > div > span{
+font-family: 'sonbold', sans-serif;
+color: #707070;
+font-size: 15px;
+
+}
+.third-sec > div > span{
+font-family: 'sonbold', sans-serif;
+color: #707070;
+font-size: 15px;
+
+
+}
+.third-sec{
+background-color: #fff;
+padding: 5%;
+
+}
+.third-sec >input{
+display: block;
+text-align: center;
+margin: auto;
+width: 70%;
+margin-top: 3%;
+-webkit-appearance: none;
+color: #21B8AF;
+background-color: #fff;
+border:0;
+
+border-bottom: 2px solid #21B8AF;
+padding-left: 0;
+}
+.third-sec >input::placeholder{
+color: #21B8AF !important;
+font-size:10px;
+opacity: 1; /* Firefox */
+
+}
+h4{
+    font-size: 1rem;
+
+}
+.btn-outline-warning:hover {
+color: #fff;
+font-weight: bold;
+
+background-color: #E1B72A;
+border-color: #E1B72A;
+}
+.btn-outline-warning {
+color: #E1B72A;
+background-color: transparent;
+background-image: none;
+border-color: #E1B72A;
+font-weight: bold;
+
+}
+
+.but-sec{
+    background-color: #fff;
+    margin: 0;
+    padding:20px;
+    margin-top: 0;
+}
+.sixth-sec{
+    background-color: #fff;
+    margin: 0;
+    padding:20px;
+    display: block;
+
+    margin-top: 0;
+}
+.seventh-sec{
+
+    background-color: #fff;
+    margin:0;
+    display: block;
+
+    margin-top: 10px;
+    padding: 20px;
+}
+.fourth-sec{
+background-color: #fff;
+margin: 20px;
+padding:20px;
+margin-top: 0;
+display: none;
+}
+.fifth-sec{
+    display: none;
+
+background-color: #fff;
+margin:20px;
+padding: 20px;
+
+}.bgc{
+    background-color: #fff;
+    margin: 10px;
+    margin-bottom: 0;
+    padding: 15px;
+
+}
+
+.first-sec > .row .col-6  > label{
+
+font-size: 10px;
+}
+#files{
+width: 0.1px;
+height: 0.1px;
+opacity: 0;
+overflow: hidden;
+position: absolute;
+z-index: -1;
+}
+.pinv{
+    font-family: 'sonbold', sans-serif;
+    font-size: 10px;
+}
+
+label{
+    font-family: 'son', sans-serif;
+    color: #838383;
+    font-size: 7px;
+}
+h3{
+font-family: 'sonbold', sans-serif;
+color: #707070;
+
+}
+.km{
+    font-size: 10px;
+}
+.darpi{
+    -webkit-appearance: none;
+    background-color: #fff;
+border:0;
+width:75%;
+border-bottom: 1px solid #8B8B8B;
+padding-left: 0;
+ }
+}
